@@ -1,0 +1,15 @@
+version: '3.3'
+services:
+  laravel-docker:
+    build: ./
+    ports:
+      - 9002:80
+    volumes:
+      - ./:/usr/share/nginx/html
+    restart: always
+    networks:
+      - docker
+
+networks:
+  docker:
+    driver: bridge
