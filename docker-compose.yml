@@ -20,6 +20,8 @@ services:
       MYSQL_DATABASE: pacoca
       MYSQL_USER: pacoca
       MYSQL_PASSWORD: pacoca
+    volumes:
+      - .docker/dbdata:/var/lib/mysql
     networks:
       - docker
 
