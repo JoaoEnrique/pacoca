@@ -3,6 +3,8 @@ FROM wyveo/nginx-php-fpm:latest
 # Copiar os arquivos do projeto
 COPY . /usr/share/nginx/html
 
+COPY . .
+
 # Copiar o arquivo de configuração do Nginx
 COPY nginx.conf /etc/nginx/conf.d/default.conf
 
