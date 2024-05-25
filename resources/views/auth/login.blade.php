@@ -1,10 +1,10 @@
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -20,7 +20,7 @@
         <div class="col col-form-login">
 
           <form class="form-login" method="POST" action="{{ route('login') }}">
-            
+
             {{-- MENSAGEM DE CONTA CRIADA --}}
             @if(session()->has('conta-create-success'))
                 <div class="alert alert-success alert-dismissible alert-account-create fade show" role="alert">
@@ -37,7 +37,7 @@
                 </div>
             @endif
 
-             
+
             <h2 class="titulo-login">login</h2>
                 @csrf
 
@@ -71,7 +71,7 @@
                         </span>
                     @enderror
 
-                    
+
                     <div class="col link-criar-conta">
                         @if (Route::has('password.request'))
                             <a class="btn btn-link" href="{{ route('password.request') }}">
@@ -80,7 +80,7 @@
                         @endif
                     </div>
                 </div>
-  
+
                 {{-- Manter logado --}}
                 <div class="form-group">
                     <div class="col">
@@ -93,7 +93,7 @@
                         </div>
                     </div>
                 </div>
-  
+
 
                 <div class="form-group">
                     <div class="col link-criar-conta">
@@ -108,11 +108,11 @@
                     </div>
                 </div>
 
-                    
+
             </form>
 
             <script>
-                //BOTÃO PARA MOSTRAR SENHA    
+                //BOTÃO PARA MOSTRAR SENHA
                 function showPassword() {//Botao de olho para mostrar e esconder a senha (pagina entrar)
                     var senha = document.querySelector("#password");
                     var imgShow = document.querySelector("#view-password");

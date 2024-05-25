@@ -5,6 +5,7 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 use App\Mail\CustomVerifyEmail;
 use Illuminate\Auth\Notifications\VerifyEmail;
+use Illuminate\Routing\UrlGenerator;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,12 +24,15 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
+    public function boot(UrlGenerator $url)
     {
+        if (env('APP_ENV') == 'production') {
+            $url->forceScheme('https');
+        }
         // VerifyEmail::createUrlUsing(function ($notifiable) {
         //     return url("/verify-email/{$notifiable->getKey()}/" . urlencode($notifiable->getEmailForVerification()));
         // });
     }
 
-    
+
 }
