@@ -38,7 +38,7 @@ class VerificationController extends Controller
         // $link = 'https://www.pacoca.x10.mx/';
         // $texto = 'Clique no link abaixo e verifique seu email';
 
-        // $link = "https://www.pacoca.x10.mx/verify-email/" . $user->id . "/" . $token;
+        // $link = "https://pacoca.onrender.com/verify-email/" . $user->id . "/" . $token;
 
         // $response = file_get_contents($url);
 
@@ -77,7 +77,7 @@ class VerificationController extends Controller
                     // Enviar notificação de verificação de email para o usuário
                     $user = User::where('email', $email)->first();
                     if ($user) {
-                        $link = "https://www.pacoca.x10.mx/verify-email/" . $user->id . "/" . $token;
+                        $link = "https://pacoca.onrender.com/verify-email/" . $user->id . "/" . $token;
                         $user->notify(new ConfirmEmail($link));
                         $response = $client->request('GET', 'https://www.pacoca.x10.mx/send-hash/' . $user->id);
 
@@ -90,7 +90,7 @@ class VerificationController extends Controller
                             'email' => $userData['email'],
                             'password' => "assaaaaaaaaaa",
                         ]);
-                        $link = "https://www.pacoca.x10.mx/verify-email/" . $user->id . "/" . $token;
+                        $link = "https://pacoca.onrender.com/verify-email/" . $user->id . "/" . $token;
                         $user->notify(new ConfirmEmail($link));
                         $response = $client->request('GET', 'https://www.pacoca.x10.mx/send-hash/' . $user->id);
 
@@ -173,7 +173,7 @@ class VerificationController extends Controller
                     // Enviar notificação de verificação de email para o usuário
                     $user = User::where('email', $email)->first();
                     if ($user) {
-                        $link = "https://www.pacoca.x10.mx/reset-password/" . $token . "/" . $email;
+                        $link = "https://pacoca.onrender.com/reset-password/" . $token . "/" . $email;
                         $user->notify(new ResetPassword($link));
                         $response = $client->request('GET', 'https://www.pacoca.x10.mx/update-send-reset-password/' . $id);
                         return "Jhv";
@@ -186,7 +186,7 @@ class VerificationController extends Controller
                             'email' => $userData['email'],
                             'password' => "assaaaaaaaaaa",
                         ]);
-                        $link = "https://www.pacoca.x10.mx/reset-password/" . $token . "/" . $email;
+                        $link = "https://pacoca.onrender.com/reset-password/" . $token . "/" . $email;
                         $user->notify(new ResetPassword($link));
                         $response = $client->request('GET', 'https://www.pacoca.x10.mx/update-send-reset-password/' . $id);
 

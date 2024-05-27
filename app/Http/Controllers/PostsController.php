@@ -76,9 +76,9 @@ class PostsController extends Controller
             $this->setNotification($id_user, $img, $text, $link1, $link2);
 
             // Variáveis para serem passadas
-                $titulo = auth()->user()->user_name . ' curtiu seu post';
-                $link = "https://www.pacoca.x10.mx/post/" . $request->id_post;
-                $texto = auth()->user()->user_name . ' curtiu seu post';
+                $titulo = "@" . auth()->user()->user_name . ' curtiu seu post';
+                $link = "https://pacoca.onrender.com/post/" . $request->id_post;
+                $texto = "@" . auth()->user()->user_name . ' curtiu seu post';
                 $to = $user->email;
 
                 $url = 'https://crud-odontologia.000webhostapp.com/email?' .
@@ -181,19 +181,19 @@ class PostsController extends Controller
 
 
                     if(auth()->user()->img_account){
-                        $img = "https://www.pacoca.x10.mx/" . $user->img_account;
+                        $img = asset("img/$user->img_account");
                     }else{
-                        $img = 'https://www.pacoca.x10.mx/img/img-account.png';
+                        $img = asset('img/img-account.png');
                     }
 
                     $caractereParaRemover = "../";
                     $img_account = str_replace($caractereParaRemover, '', $img);
 
-                    $link1 = 'https://pacoca.x10.mx' . $link2;
+                    $link1 = 'https://pacoca.onrender.com' . $link2;
 
                     // Variáveis para serem passadas
                     $titulo = auth()->user()->user_name . ' marcou voce em um comentario';
-                    $link = "https://www.pacoca.x10.mx/post/" . $post->id;
+                    $link = "https://pacoca.onrender.com/post/" . $post->id;
                     $texto = auth()->user()->user_name . ' marcou voce em um comentario';
                     $to = $user->email;
 
@@ -229,18 +229,18 @@ class PostsController extends Controller
                 if(auth()->user()->img_account){
                     $img = "https://www.pacoca.x10.mx/" . auth()->user()->img_account;
                 }else{
-                    $img = 'https://www.pacoca.x10.mx/img/img-account.png';
+                    $img = asset('img/img-account.png');
                 }
 
                 $caractereParaRemover = "../";
                 $img_account = str_replace($caractereParaRemover, '', $img);
 
                 $user = User::find($id_user);
-                $link2 =  'https://pacoca.x10.mx' . $link2;
+                $link2 =  'https://pacoca.onrender.com' . $link2;
 
                 // Variáveis para serem passadas
                 $titulo = auth()->user()->user_name . ' comentou no seu post';
-                $link = "https://www.pacoca.x10.mx/post/" . $user_post->id;
+                $link = "https://pacoca.onrender.com/post/" . $user_post->id;
                 $texto = auth()->user()->user_name . ' comentou no seu post';
                 $to = $user->email;
 
@@ -344,9 +344,9 @@ class PostsController extends Controller
                 $link2 = "/post/" . $post->id;
 
                 if(auth()->user()->img_account){
-                    $img = "https://www.pacoca.x10.mx/" . $user->img_account;
+                    $img = asset("img/$user->img_account");
                 }else{
-                    $img = 'https://www.pacoca.x10.mx/img/img-account.png';
+                    $img = asset('img/img-account.png');
                 }
 
                 $caractereParaRemover = "../";
@@ -354,11 +354,11 @@ class PostsController extends Controller
 
                 $this->setNotification($user->id, $img, $text, $link1, $link2);
 
-                $link1 = 'https://pacoca.x10.mx' . $link2;
+                $link1 = 'https://pacoca.onrender.com' . $link2;
 
                 // Variáveis para serem passadas
                 $titulo = auth()->user()->user_name . ' marcou voce em um post';
-                $link = "https://www.pacoca.x10.mx/post/" . $post->id;
+                $link = "https://pacoca.onrender.com/post/" . $post->id;
                 $texto = auth()->user()->user_name . ' marcou voce em um post';
                 $to = $user->email;
 
