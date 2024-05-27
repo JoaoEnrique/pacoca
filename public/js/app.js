@@ -1,4 +1,7 @@
 $(document).ready(function() {
+
+
+    
     var imageUpload = ""
     // Carregar imagem do post depois de carregar a pagina
     $('.col-img-post[data-img!=""]').each(function (index, elem) {
@@ -21,7 +24,7 @@ $(document).ready(function() {
         $('.show-spinner').css("display", "block")
         $('#form-open-loading').css("display", "none")
     }
-    
+
     image_upload()
     video_upload()
 
@@ -34,7 +37,7 @@ $(document).ready(function() {
 
         $.ajax({
             url: '/like',
-            data: 'id_post=' + id, 
+            data: 'id_post=' + id,
             method: 'POST',
             dataType: 'json',
             headers: {
@@ -43,7 +46,7 @@ $(document).ready(function() {
 
             success: function(data){
                 console.log(data.message);
-                
+
                 iconLike.remove()
                 switch (data.message){
                     case 'likeSuccess':
@@ -125,7 +128,7 @@ $(document).ready(function() {
 
         $.ajax({
             url: '/open-notification',
-            data: 'id_notification=' + id, 
+            data: 'id_notification=' + id,
             method: 'POST',
             dataType: 'json',
             headers: {
@@ -136,11 +139,11 @@ $(document).ready(function() {
                 switch (data.message){
 
                     case 'openSuccess':
-                        
+
                         break
 
                     case 'openDanger':
-                        
+
                         break
                 }
 
@@ -148,7 +151,7 @@ $(document).ready(function() {
         });
 
     }
-    
+
     // ABRIR CAMPO DE COMENTARIO
     function open_comment(){
         var id = $(this).data('id-post');
@@ -161,15 +164,15 @@ $(document).ready(function() {
             $('#row-comment-'+ id).css({display: 'flex'});
         }
     }
-    
+
     // COMENTAR
     function comment(event) {
         event.preventDefault(); // Impede o envio padrão do formulário
-    
+
         var form = $(this); // Obtém o formulário atual
         var url = form.attr('action'); // Obtém o URL do atributo 'action' do formulário
-        
-        
+
+
         var idPost = form.find('input[name="id_post"]').val();
         var name = form.find('input[name="name"]').val();
         var textPost = form.find('textarea[name="comment"]').val();
@@ -196,7 +199,7 @@ $(document).ready(function() {
 
             <div class="col-1 img-account-likes img-account-search" style="background-image: url('${img_account}')!important">
             </div>
-            
+
             <div class="col">
                 <div class="comment-text">
                     <h1 style="font-size: 17px; margin-bottom: -5px">${name}</h2>
@@ -208,7 +211,7 @@ $(document).ready(function() {
             </div>
         </div>
     `;
-    
+
         $.ajax({
         url: url,
         method: 'POST',
@@ -217,7 +220,7 @@ $(document).ready(function() {
         headers: {
             'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
         },
-    
+
         success: function(data) {
 
             $('#comentarios-'+ idPost).html(parseInt($('#comentarios-'+ idPost).html()) + 1);
@@ -228,9 +231,9 @@ $(document).ready(function() {
 
             if(data.subject)
                 sendEmailNotification(data.email_notification, data.subject, data.text, data.link1, data.link2);
-            
+
         },
-    
+
         error: function(err) {
             console.log(err);
         }
@@ -247,7 +250,7 @@ $(document).ready(function() {
             url: '/follow-user',
             dataType: 'JSON',
             method: 'POST',
-            data: 'id_user=' + idUser, 
+            data: 'id_user=' + idUser,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
@@ -283,7 +286,7 @@ $(document).ready(function() {
                 url: '/delete-post',
                 dataType: 'JSON',
                 method: 'POST',
-                data: 'id_post=' + id, 
+                data: 'id_post=' + id,
                 headers: {
                     'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
                 },
@@ -291,7 +294,7 @@ $(document).ready(function() {
                 success: function(ret){
                     console.log(ret.message)
                     if(ret.message == "delete"){
-                        $('.card-post-' + id).remove()  
+                        $('.card-post-' + id).remove()
                     }
                 }
             });
@@ -307,7 +310,7 @@ $(document).ready(function() {
             url: '/delete-comment',
             dataType: 'JSON',
             method: 'POST',
-            data: 'id_comment=' + id, 
+            data: 'id_comment=' + id,
             headers: {
                 'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
             },
@@ -315,7 +318,7 @@ $(document).ready(function() {
             success: function(ret){
                 console.log(ret.message)
                 if(ret.message == "delete"){
-                    $('.card-comment-' + id).remove()  
+                    $('.card-comment-' + id).remove()
                     $('#comentarios-'+ idPost).html(parseInt($('#comentarios-'+ idPost).html()) - 1);
                 }
             }
@@ -372,24 +375,24 @@ $(document).ready(function() {
         // PREVIEW DA IMAGEM DO POST
         // Get the input file element
         imageUpload = document.getElementById('img');
-        
-        
+
+
         if(imageUpload){
             // Listen for changes in the input file
             imageUpload.addEventListener('change', function() {
             // Get the selected file
             const file = this.files[0];
-            
+
             // Check if a file is selected
             if (file) {
                 // Create a FileReader object
                 const reader = new FileReader();
-            
+
                 // Set up the reader to load the image
                 reader.onload = function(e) {
                 // Create an image element
                 //   const img = document.createElement('img');
-            
+
                 // Set the source of the image to the loaded file
                 //   img.src = e.target.result;
                 // Append the image to the preview container
@@ -399,7 +402,7 @@ $(document).ready(function() {
                 previewContainer.style.backgroundSize = "cover";
                 //   previewContainer.appendChild(img);
                 };
-            
+
                 // Read the selected file as a Data URL
                 reader.readAsDataURL(file);
             }
@@ -412,24 +415,24 @@ $(document).ready(function() {
         // PREVIEW DA IMAGEM DO POST
         // Get the input file element
         imageUpload = document.getElementById('video');
-        
-        
+
+
         if(imageUpload){
             // Listen for changes in the input file
             imageUpload.addEventListener('change', function() {
             // Get the selected file
             const file = this.files[0];
-            
+
             // Check if a file is selected
             if (file) {
                 // Create a FileReader object
                 const reader = new FileReader();
-            
+
                 // Set up the reader to load the image
                 reader.onload = function(e) {
                 // Create an image element
                 //   const img = document.createElement('img');
-            
+
                 // Set the source of the image to the loaded file
                 //   img.src = e.target.result;
                 // Append the image to the preview container
@@ -439,7 +442,7 @@ $(document).ready(function() {
                 videoPost.src = e.target.result;
                 //   previewContainer.appendChild(img);
                 };
-            
+
                 // Read the selected file as a Data URL
                 reader.readAsDataURL(file);
             }

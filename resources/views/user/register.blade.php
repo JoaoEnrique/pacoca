@@ -164,7 +164,7 @@
 
         {{-- Logo --}}
         <div class="col col-img-register">
-            <img class="img-logo-login" src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="400">
+            <img class="img-logo-login" src="{{asset('img/pacoca.png')}}" height="400">
         </div>
 
     </div>

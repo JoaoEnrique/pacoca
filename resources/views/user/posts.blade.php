@@ -45,7 +45,7 @@
                 <a href="/{{$post->user_name}}">{{$post->name}}</a> {{-- Nome --}}
                     {{-- IMAGEM DE VERIFICADO --}}
                     @if ($post->user_name == 'joao' || $post->user_name == 'pacoca')
-                        <img class="img-verificado-comentario" src="https://crud-odontologia.000webhostapp.com/img/verificado.png alt="" srcset="">
+                        <img class="img-verificado-comentario" src="{{asset('img/verificado.png')}} alt=" srcset="">
                     @endif
                 </h2>
             <p class="seguidor-post">{{"@".$post->user_name}} - {{count($followers)}} seguidores</p>{{-- Seguidores --}}
@@ -114,23 +114,13 @@
         @if($images_post && count($images_post) == 1) {{-- CASO TENHA SÓ UMA IMAGEM --}}
             @if ($images_post[0]->type == 0) {{-- CASO SEJA UMA IMAGEM --}}
                 @php
-                    //verificar se img existe
-                    $path = $images_post[0]->path;
-                        $path = str_replace("public", "", $path);
+                    $path = str_replace('public/', '', $images_post[0]->path);
 
-                    // if (file_exists($path)) {
-                        $path_img = "https://crud-odontologia.000webhostapp.com$path";
-                    // } else {
-                    //     $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
-                    // }
-
-                    $headers = get_headers($path_img, 1);
-
-                    // if (strpos($headers[0], '200') !== false) {
-                    //     $path_img = "https://crud-odontologia.000webhostapp.com/$path";
-                    // } else {
-                    //     $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
-                    // }
+                    if (file_exists($path)) {
+                        $path_img = asset($path);
+                    } else {
+                        $path_img = asset('img/image_not_found.png');
+                    }
                 @endphp
 
                 <div class="row row-img-post">
@@ -139,7 +129,7 @@
                         <p type="button" style="margin: 2px 0;" data-bs-toggle="modal" data-bs-target="#modal-img-{{$images_post[0]->id}}">
 
 
-                            <img src="{{$path_img}}?v=2" class="img-post" id="img-post-resize-{{$path_img}}" srcset="" style=" @php  if(strpos($headers[0], '200')){ echo "z-index: -10"; } @endphp">
+                            <img src="{{$path_img}}?v=2" class="img-post" id="img-post-resize-{{$path_img}}" srcset="" style=" @php  if(file_exists($path)){ echo "z-index: -10"; } @endphp">
 
                             <script>
                                 function verificarOrientacaoImagem(urlDaImagem) {
@@ -188,7 +178,7 @@
                                             if (file_exists($path)) {
                                                 $path_img = asset($images_post[0]->path);
                                             } else {
-                                                $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
+                                                $path_img = asset('img/image_not_found.png');
                                             }
                                         @endphp
                                             <img style="min-width: auto"  src="{{$path_img}}" id="img-post" class="img-post" srcset="">

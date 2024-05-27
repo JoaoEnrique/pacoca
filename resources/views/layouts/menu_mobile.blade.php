@@ -4,7 +4,7 @@
             <div class="col">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0" style="flex-direction: row; justify-content: space-evenly; width: 100%;">
                     <a class="nav-link" href="/" style="margin-left: -18px;">
-                        <img src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="37"/>
+                        <img src="{{asset('img/pacoca.png')}}" height="37"/>
                     </a>
                     {{-- Usuario Logado mostra icones de configurações  --}}
                     @if (auth()->check())
@@ -46,10 +46,10 @@
                             <a class="nav-link" href="/chat">
                                 {{-- Caso esteja na home (img preenchida) --}}
                                 @if(Request::is('chat'))
-                                    <img src="https://crud-odontologia.000webhostapp.com/img/chat-black.png" height="30" srcset="">
+                                    <img src="{{asset('img/chat-black.png')}}" height="30" srcset="">
                                 @else
                                     {{-- Caso não esteja na home (img normal) --}}
-                                    <img style="opacity: 0.5" src="https://crud-odontologia.000webhostapp.com/img/chat.png" height="30" srcset="">
+                                    <img style="opacity: 0.5" src="{{asset('img/chat.png')}}" height="30" srcset="">
                                     {{-- <img style="opacity: 0.5;background:transparent!important" src="https://crud-odontologia.000webhostapp.com/img/icons8-chat.gif')}}" height="35" srcset=""> --}}
                                 @endif
                             </a>

@@ -38,7 +38,7 @@
                     {{-- @if($notification->img_notification) --}}
                         @php
                             if($notification->img_notification) {$img_notification = $notification->img_notification;}
-                            else{ $img_notification = "https://crud-odontologia.000webhostapp.com/img/pacoca.png";  }
+                            else{ $img_notification = "{{asset('img/pacoca.png')}}";  }
 
                         @endphp
 

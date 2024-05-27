@@ -68,7 +68,7 @@
         clearInterval(intervalId);
 
         document.getElementById("chat-name").innerHTML = "Paçoca"
-        document.getElementById("chat-img").style.backgroundImage = `url('https://crud-odontologia.000webhostapp.com/img/img_account/2.png')`
+        document.getElementById("chat-img").style.backgroundImage = `url({{asset('img/img_account/2.png'))`
 
         $("#form-escrever-chat").css('display', 'none')
 

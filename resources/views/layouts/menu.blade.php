@@ -1,6 +1,6 @@
 <nav class="navbar navbar-pc navbar-dark navbar-expand-md fixed-top" style=" padding-left:100px;padding-right: 100px;    margin: 0 20px 20px; border-radius: 15px">
     <div class="container-fluid">
-    <a class="navbar-brand" href="/"><img src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="50"/></a>
+    <a class="navbar-brand" href="/"><img src="{{asset('img/pacoca.png')}}" height="50"/></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -61,10 +61,10 @@
                         <a class="nav-link" href="/chat">
                             {{-- Caso esteja na home (img preenchida) --}}
                             @if(Request::is('chat'))
-                                <img src="https://crud-odontologia.000webhostapp.com/img/chat-black.png" height="35" srcset="">
+                                <img src="{{asset('img/chat-black.png')}}" height="35" srcset="">
                             @else
                                 {{-- Caso não esteja na home (img normal) --}}
-                                <img style="opacity: 0.5" src="https://crud-odontologia.000webhostapp.com/img/chat.png" height="35" srcset="">
+                                <img style="opacity: 0.5" src="{{asset('img/chat.png')}}" height="35" srcset="">
                                 {{-- <img style="opacity: 0.5;background:transparent!important" src="https://crud-odontologia.000webhostapp.com/img/icons8-chat.gif')}}" height="35" srcset=""> --}}
                             @endif
                         </a>

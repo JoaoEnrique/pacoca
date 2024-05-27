@@ -15,7 +15,7 @@
 <div class="container-login">
     <div class="row row-login" style="height: 100%">
         <div class="col col-img-login">
-          <img class="img-logo-login" src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="400">
+          <img class="img-logo-login" src="{{asset('img/pacoca.png')}}" height="400">
           <h4 style="color: #fff; position: absolute; bottom: 200px">Criptografia de ponta-a-ponta</h4>
         </div>
         <div class="col col-form-login">
