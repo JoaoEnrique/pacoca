@@ -2520,3 +2520,13 @@
 #63 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\server.php(21): require_once('C:\\\\Users\\\\jebsa\\\\...')
 #64 {main}
 "} 
+[2024-05-27 14:09:44] local.ERROR: There are no commands defined in the "generage" namespace. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"generage\" namespace. at C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\symfony\\console\\Application.php:669)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\symfony\\console\\Application.php(720): Symfony\\Component\\Console\\Application->findNamespace('generage')
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\symfony\\console\\Application.php(266): Symfony\\Component\\Console\\Application->find('generage:key')
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\symfony\\console\\Application.php(175): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(102): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(155): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
