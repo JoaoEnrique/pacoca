@@ -16,3 +16,19 @@ services:
       - .:/var/www/html
     ports:
       - "8080:80"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:5.7
+    container_name: pacoca_mysql
+    environment:
+      MYSQL_DATABASE: laravel
+      MYSQL_USER: laraveluser
+      MYSQL_PASSWORD: laravelpass
+      MYSQL_ROOT_PASSWORD: rootpassword
+    volumes:
+      - db_data:/var/lib/mysql
+
+volumes:
+  db_data:
