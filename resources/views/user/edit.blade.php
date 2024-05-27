@@ -48,7 +48,7 @@
                             @endif
                             <label for="img" style="cursor: pointer">
                                 <div style="padding: 5; position: absolute; bottom: 5px; right: 15px; background: #fff; border-radius: 15px" class="">
-                                    <img style="width: 25;" src="{{asset('img/edit.png')}}" alt="" srcset="">
+                                    <img style="width: 25;" src="https://crud-odontologia.000webhostapp.com/img/edit" alt="" srcset="">
                                 </div>
                             </label>
                         </div>

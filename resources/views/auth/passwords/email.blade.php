@@ -64,7 +64,7 @@
     <div class="container-login">
         <div class="row row-login" style="height: 100%">
             <div class="col col-img-login">
-            <img class="img-logo-login" src="../img/pacoca.png" height="400">
+            <img class="img-logo-login" src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="400">
             </div>
             <div class="col col-form-login">
 

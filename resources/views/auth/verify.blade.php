@@ -27,13 +27,13 @@
 </div>
 @endsection --}}
 
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -44,7 +44,7 @@
 <div class="container-login">
     <div class="row row-login" style="height: 100%">
         <div class="col col-img-login">
-          <img class="img-logo-login" src="../img/pacoca.png" height="400">
+          <img class="img-logo-login" src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="400">
         </div>
         <div class="col col-form-login" style="font-size: 20px; margin-top: -30px">
 
@@ -63,7 +63,7 @@
                     @csrf
                     <button type="submit" class="btn btn-link p-0 m-0 align-baseline">{{ __('clique aqui para enviar um email de verificação.') }}</button>.
                 </form>
-                
+
             </div>
 
             {{-- Spinner carregamento --}}
@@ -82,7 +82,7 @@
   {{-- JQuery --}}
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="../js/app.js"></script>
-  
+
 @endsection
 
 

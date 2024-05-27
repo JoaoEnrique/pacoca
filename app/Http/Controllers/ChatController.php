@@ -114,7 +114,7 @@ class ChatController extends Controller
 
         // Variáveis para serem passadas
         $titulo = auth()->user()->user_name . ' te enviou uma mensagem no pv';
-        $link = "http://192.168.1.107:8080/chat?chat_id=" . $validated['chat_id'];
+        $link = "https://pacoca.x10.mx/chat?chat_id=" . $validated['chat_id'];
         $texto = auth()->user()->user_name . ' te enviou uma mensagem no pv';
         $to = $user->email;
 

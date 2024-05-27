@@ -1,10 +1,10 @@
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -73,7 +73,7 @@
                         <div class="col" style="position: relative">
                             <input id="password" type="password" class="input-login form-control @error('password') is-invalid @enderror" value="{{ old('password') }}" name="password" autocomplete="current-password">
                             {{-- IMAGEM DE VER SENHA --}}
-                            <img class="view-password" id="view-password" src="{{asset('img/eye.svg')}}" onclick="showPassword()" srcset="">
+                            <img class="view-password" id="view-password" src="https://crud-odontologia.000webhostapp.com/img/eye.svg" onclick="showPassword()" srcset="">
                         </div>
 
                         @error('password')
@@ -90,15 +90,15 @@
                         <div class="col" style="position: relative">
                             <input id="password-confirm" type="password" class="input-login form-control" name="password_confirmation" value="{{ old('password_confirmation') }}" autocomplete="new-password">
                             {{-- IMAGEM DE VER SENHA --}}
-                            <img class="view-password" id="view-password-confirm" src="{{asset('img/eye.svg')}}" onclick="showPasswordConfirm()" srcset="">
+                            <img class="view-password" id="view-password-confirm" src="https://crud-odontologia.000webhostapp.com/img/eye.svg" onclick="showPasswordConfirm()" srcset="">
                         </div>
                     </div>
 
-                    
+
 
                     <div class="col mb-3">
                         <input required class="form-check-input" type="checkbox" {{ old('checkbox') ? 'checked' : '' }} name="termos"  id="termos">
-                        
+
                         <label class="form-check-label" for="termos">
                             Concordo com os
                             <input type="button" data-bs-toggle="modal" data-bs-target="#modal-termos-de-uso" style="background: transparent; border: 0; color: blue; text-decoration: underline" value="termos de uso"/> e a
@@ -112,8 +112,8 @@
                             </span>
                         @enderror
                     </div>
-                    
-    
+
+
                     {{-- Criar Conta --}}
                     <div class="form-group mt-5">
                         <div class="col link-criar-conta">
@@ -130,12 +130,12 @@
                             @endif
                         </div>
                     </div>
-                        
+
                 </form>
         </div>
 
         <script>
-            //BOTÃO PARA MOSTRAR SENHA    
+            //BOTÃO PARA MOSTRAR SENHA
             function showPassword() {//Botao de olho para mostrar e esconder a senha (pagina entrar)
                 var senha = document.querySelector("#password");
                 var imgShow = document.querySelector("#view-password");
@@ -164,7 +164,7 @@
 
         {{-- Logo --}}
         <div class="col col-img-register">
-            <img class="img-logo-login" src="../img/pacoca.png" height="400">
+            <img class="img-logo-login" src="https://crud-odontologia.000webhostapp.com/img/pacoca.png" height="400">
         </div>
 
     </div>
@@ -172,7 +172,7 @@
 
   <!-- MODAL DE TERMOS DE USO -->
   <div class="modal fade" style="overflow: hidden" id="modal-termos-de-uso" tabindex="-1" aria-labelledby="modal-termos-de-uso" aria-hidden="true">
-            
+
     <div class="modal-dialog">
         <div class="modal-content">
         <div class="modal-header">
@@ -183,47 +183,47 @@
             <p>Data de vigência: 07/03/2024</p>
 
             <p>Bem-vindo à Paçoca! Ao utilizar nossa plataforma, você concorda com os seguintes Termos de Uso. Certifique-se de ler atentamente antes de prosseguir.</p>
-            
+
             <h5>1. Aceitação dos Termos </h5>
-            
+
             <p>Ao acessar ou utilizar a Paçoca, você concorda em cumprir estes Termos de Uso e todas as leis e regulamentos aplicáveis. Se você não concordar com algum termo ou condição, solicitamos que não utilize nossa plataforma.</p>
-            
+
             <h5>2. Uso da Plataforma</h5>
-            
+
             <h6>2.1 Cadastro:</h6>
             <p>Você é responsável por fornecer informações precisas e atualizadas durante o processo de registro. Manter a confidencialidade de suas credenciais de conta é de sua responsabilidade.</p>
-            
+
             <h5>2.2 Comportamento do Usuário:</h5>
             <p>Ao utilizar a Paçoca, compromete-se a não violar direitos de terceiros, divulgar conteúdo inadequado, praticar atividades ilegais ou prejudicar a experiência de outros usuários.</p>
-            
+
             <h5>3. Conteúdo do Usuário
-            
+
             <h5>3.1 Propriedade:</h5>
             <p>Você mantém a propriedade dos conteúdos que compartilha na Paçoca. Ao fornecer conteúdo, concede-nos uma licença não exclusiva para usá-lo de acordo com os propósitos da plataforma.</p>
-            
+
             <h5>3.2 Conteúdo Proibido:</h5>
             <p>É proibido publicar conteúdo que seja difamatório, obsceno, ilegal, discriminatório, ameaçador ou que viole os direitos de propriedade intelectual de terceiros.</p>
-            
+
             <h5>4. Responsabilidades e Garantias</h5>
-            
+
             <p>Você é responsável por suas ações na Paçoca. Não garantimos que a plataforma será livre de interrupções ou erros, e reservamo-nos o direito de suspender ou encerrar contas que violem estes Termos de Uso.</p>
-            
+
             <h5>5. Privacidade e Segurança</h5>
-            
+
             <p>Ao utilizar a Paçoca, concorda com nossa <a href data-bs-toggle="modal" data-bs-target="#modal-politicas-de-privacidade">Política de Privacidade.</a></p>
-            
+
             <h5>6. Modificações nos Termos de Uso</h5>
-            
+
             <p>Reservamo-nos o direito de modificar estes Termos de Uso a qualquer momento. Notificaremos os usuários sobre alterações significativas, e o uso contínuo da plataforma após as mudanças implica na aceitação dos novos termos.</p>
-            
+
             <h5>7. Encerramento da Conta</h5>
-            
+
             <p>Você pode encerrar sua conta a qualquer momento. Reservamo-nos o direito de encerrar contas que violem estes Termos de Uso.</p>
-            
+
             <h5>8. Contato</h5>
-            
+
             <p>Para entrar em contato conosco em relação a estes Termos de Uso, utilize pacoca150723@gmail.com.</p>
-            
+
             <p>Agradecemos por escolher a Paçoca. Divirta-se, respeite os demais usuários e contribua para uma comunidade positiva!</p>
         </div>
         <div class="modal-footer">
@@ -236,7 +236,7 @@
 
 {{-- MODAL DE POLITICAS SE PRIVACIDADE --}}
 <div class="modal fade" style="overflow: hidden" id="modal-politicas-de-privacidade" tabindex="-1" aria-labelledby="modal-politicas-de-privacidade" aria-hidden="true">
-            
+
     <div class="modal-dialog">
         <div class="modal-content">
         <div class="modal-header">
@@ -293,8 +293,8 @@
 </div>
 
 <script>
-    
-            
+
+
             // Obtém referências aos elementos HTML
             const checkbox = document.getElementById('termos');
             const btnCheck = document.getElementById('btnCheck');

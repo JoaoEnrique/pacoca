@@ -19,7 +19,7 @@
         <div class="col-3 col-list-chat">
             <div class="choose-chat list-chat row" data-chat-id="0">
                 <div class="choose-chat col-1" style="margin-right: 30px;display: flex; align-items: center" data-chat-id="0">
-                    <div class="choose-chat img-list-chat" style="background-image: url('../img/img_account/2.png')!important" data-chat-id="0"></div>
+                    <div class="choose-chat img-list-chat" style="background-image: url('https://crud-odontologia.000webhostapp.com/img/img_account/2.png')!important" data-chat-id="0"></div>
                 </div>
                 <div class="choose-chat col" style="display: flex; align-items: center" data-chat-id="0">
                     <h4 class="choose-chat" data-chat-id="0">Paçoca</h4>
@@ -58,7 +58,7 @@
                         @include('user.menu_chat')
 
                         <div class="col-1" style="margin-right: 30px;display: flex; align-items: center">
-                            <div id="chat-img" class="img-list-chat" style="background-image: url('../img/img_account/2.png')"></div>
+                            <div id="chat-img" class="img-list-chat" style="background-image: url('https://crud-odontologia.000webhostapp.com/img/img_account/2.png')"></div>
                         </div>
                         <div class="col" style="display: flex; align-items: center">
                             <h4 class="choose-chat" id="chat-name" data-chat-id="0">Paçoca</h4>
@@ -114,5 +114,5 @@
     </div>
     {{-- MENU DE CELULAR --}}
     @include('layouts/menu_mobile')
-    <script src="{{asset('js/chat.js')}}"></script>
+    <script src="https://crud-odontologia.000webhostapp.com/js/chat.js"></script>
 @endsection

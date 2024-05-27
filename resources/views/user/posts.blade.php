@@ -36,18 +36,18 @@
             {{-- @if($post->img_account)
                 <img src="{{$post->img_account}}" class="img-conta-post">
             @else
-                <img src="{{asset('img/img-account.png')}}" class="img-conta-post">   
+                <img src="https://crud-odontologia.000webhostapp.com/img/img-account" class="img-conta-post">
             @endif --}}
         {{-- </div> --}}
 
         <div class="col col-post">
-            <h2> 
+            <h2>
                 <a href="/{{$post->user_name}}">{{$post->name}}</a> {{-- Nome --}}
                     {{-- IMAGEM DE VERIFICADO --}}
                     @if ($post->user_name == 'joao' || $post->user_name == 'pacoca')
-                        <img class="img-verificado-comentario" src="{{asset('img/verificado.png')}}" alt="" srcset="">
+                        <img class="img-verificado-comentario" src="https://crud-odontologia.000webhostapp.com/img/verificado.png alt="" srcset="">
                     @endif
-                </h2> 
+                </h2>
             <p class="seguidor-post">{{"@".$post->user_name}} - {{count($followers)}} seguidores</p>{{-- Seguidores --}}
 
             {{-- Data da potagem --}}
@@ -82,21 +82,21 @@
         @php
             $padrao_link = '/(https?:\/\/[^\s]+)/';
             $padrao_tag_user = '/(@[^\s]+)/';
-        
+
             // Formata como link se houver um link
             $texto_formatado = preg_replace_callback($padrao_link, function ($match) {
                 $url = $match[0];
                 return "<a href='$url' target='_blank' style='word-wrap: break-word;'>$url</a>";
             }, $post->text);
-        
+
             // Link caso o usuário mencione outro
             $texto_formatado = preg_replace_callback($padrao_tag_user, function ($match) {
                 $username = substr($match[0], 1); // Remove o "@" do início do username
-        
+
                 // Verifica se existe um usuário com esse nome de usuário
                 $user_controller = app(App\Http\Controllers\UserController::class);
                 $user = $user_controller->getUserByUserName($username);
-        
+
                 if ($user) {
                     return "<a href='/$username' style='word-wrap: break-word;'>$match[0]</a>";
                 } else {
@@ -110,27 +110,36 @@
     </div>
 
     {{-- Caso o post tenha imagem --}}
- 
+
         @if($images_post && count($images_post) == 1) {{-- CASO TENHA SÓ UMA IMAGEM --}}
             @if ($images_post[0]->type == 0) {{-- CASO SEJA UMA IMAGEM --}}
                 @php
                     //verificar se img existe
                     $path = $images_post[0]->path;
+                        $path = str_replace("public", "", $path);
 
-                    if (file_exists($path)) {
-                        $path_img = asset($images_post[0]->path);
-                    } else {
-                        $path_img = asset('img/image_not_found.png');
-                    }
+                    // if (file_exists($path)) {
+                        $path_img = "https://crud-odontologia.000webhostapp.com$path";
+                    // } else {
+                    //     $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
+                    // }
+
+                    $headers = get_headers($path_img, 1);
+
+                    // if (strpos($headers[0], '200') !== false) {
+                    //     $path_img = "https://crud-odontologia.000webhostapp.com/$path";
+                    // } else {
+                    //     $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
+                    // }
                 @endphp
 
                 <div class="row row-img-post">
                     <div class="col col-img-post" >
 
                         <p type="button" style="margin: 2px 0;" data-bs-toggle="modal" data-bs-target="#modal-img-{{$images_post[0]->id}}">
-                            
 
-                            <img src="{{$path_img}}?v=2" class="img-post" id="img-post-resize-{{$path_img}}" srcset="" style=" @php if (file_exists($path)) { echo "z-index: -10"; } @endphp">
+
+                            <img src="{{$path_img}}?v=2" class="img-post" id="img-post-resize-{{$path_img}}" srcset="" style=" @php  if(strpos($headers[0], '200')){ echo "z-index: -10"; } @endphp">
 
                             <script>
                                 function verificarOrientacaoImagem(urlDaImagem) {
@@ -175,11 +184,11 @@
                                         @php
                                             //verificar se img existe
                                             $path = $images_post[0]->path;
-            
+
                                             if (file_exists($path)) {
                                                 $path_img = asset($images_post[0]->path);
                                             } else {
-                                                $path_img = asset('img/image_not_found.png');
+                                                $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
                                             }
                                         @endphp
                                             <img style="min-width: auto"  src="{{$path_img}}" id="img-post" class="img-post" srcset="">
@@ -245,7 +254,7 @@
                 </div>
             @endif
         @endif
-    
+
 
     {{-- Informações post --}}
     <div class="row row-info-post">
@@ -277,10 +286,10 @@
             }
         @endphp
 
-        {{-- 
+        {{--
             email não verificado retorna modal para verificar email:
             @if(!$email_verify) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif
-            
+
         --}}
 
         {{-- Curtir --}}
@@ -429,7 +438,7 @@
             <div class="modal-body" id="modal-curtida-body" style="overflow: auto; max-height: 70vh; min-height: 70vh; padding: 0 25px;">
                 @foreach ($users_like as $user_like)
                     <div class="row account-search">
-                        
+
                         {{-- Imagem da conta no post --}}
                         @php
                             if($user_like->img_account){
@@ -438,7 +447,7 @@
                                 $img_notification = asset('img/img-account.png');
                             }
                         @endphp
-    
+
                         <div class="col-1 img-account-likes img-account-search" style="background-image: url('{{$img_notification}}')!important">
                         </div>
 
@@ -492,7 +501,7 @@
     </div>
 </div>
 
-  
+
 
 <!-- MODAL DE COMENTARIOS -->
 <div class="modal fade modal-comment" id="modal-comentarios-{{$post->id}}" tabindex="-1" aria-labelledby="modal-comentarios-{{$post->id}}" aria-hidden="true">
@@ -507,7 +516,7 @@
             @foreach ($users_comment as $user_comment)
                 @if($user_comment->id_post == $post->id)
                     <div class="row card-comment-{{$user_comment->id}}" style="margin-top:10px">
-                        
+
                         {{-- Imagem da conta no post --}}
                         @php
                             if($user_comment->img_account){
@@ -516,7 +525,7 @@
                                 $img_notification = asset('img/img-account.png');
                             }
                         @endphp
-    
+
                         <div class="col-1 img-account-likes img-account-search" style="background-image: url('{{$img_notification}}')!important">
                         </div>
                         <div class="col">
@@ -543,21 +552,21 @@
                                @php
                                     $padrao_link = '/(https?:\/\/[^\s]+)/';
                                     $padrao_tag_user = '/(@[^\s]+)/';
-                                
+
                                     // Formata como link se houver um link
                                     $texto_formatado_comment = preg_replace_callback($padrao_link, function ($match) {
                                         $url = $match[0];
                                         return "<a href='$url' target='_blank' style='word-wrap: break-word;'>$url</a>";
                                     }, $user_comment->text);
-                                
+
                                     // Link caso o usuário mencione outro
                                     $texto_formatado_comment = preg_replace_callback($padrao_tag_user, function ($match) {
                                         $username = substr($match[0], 1); // Remove o "@" do início do username
-                                
+
                                         // Verifica se existe um usuário com esse nome de usuário
                                         $user_controller = app(App\Http\Controllers\UserController::class);
                                         $user = $user_controller->getUserByUserName($username);
-                                
+
                                         if ($user) {
                                             return "<a href='/$username' style='word-wrap: break-word;'>$match[0]</a>";
                                         } else {

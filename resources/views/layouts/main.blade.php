@@ -24,16 +24,16 @@
           document.body.classList.add('loaded');
         });
       </script>
-    <link rel="shortcut icon" href="{{asset('img/pacoca.png')}}" type="image/x-icon">
-    <link rel="stylesheet" href="{{asset('css/style.css?v=2')}}">
+    <link rel="shortcut icon" href="https://crud-odontologia.000webhostapp.com/img/pacoca.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://crud-odontologia.000webhostapp.com/css/style.css?v=2')}}">
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </head>
-<body style="height: 100%; overflow-x: hidden;"> 
-    <meta name="csrf-token" content="{{ csrf_token() }}">{{-- TOKEN PARA O CURTIR FUNCIONAR --}}   
+<body style="height: 100%; overflow-x: hidden;">
+    <meta name="csrf-token" content="{{ csrf_token() }}">{{-- TOKEN PARA O CURTIR FUNCIONAR --}}
     @yield('menu') {{-- Caso tenha menu --}}
     @yield('content') {{-- Contudo --}}
-    @yield('footer'){{-- footer --}}   
+    @yield('footer'){{-- footer --}}
 </body>
 </html>

@@ -12,7 +12,7 @@
                     <a href="/register" class="btn btn-outline-light">Criar Conta</a>
                 </div>
                 <div class="col col-index">
-                    <img src="{{asset('img/read_book_livro.png')}}" height="800" srcset="">
+                    <img src="https://crud-odontologia.000webhostapp.com/img/read_book_livro.png" height="800" srcset="">
                 </div>
             </div>
         </div>

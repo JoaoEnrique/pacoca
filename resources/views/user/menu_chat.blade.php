@@ -1,6 +1,6 @@
 <div class="menu-chat-celular col-1" style="margin-right: 30px; align-items: center">
     <a  data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
-        <img src="{{asset('img/menu.png')}}" height="35" style="margin-left: 20px" srcset="">
+        <img src="https://crud-odontologia.000webhostapp.com/img/menu.png" height="35" style="margin-left: 20px" srcset="">
       </a>
 </div>
   <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
@@ -12,7 +12,7 @@
     <div class="offcanvas-body">
         <div style="margin-bottom: 5px!important" class="choose-chat list-chat row" data-bs-dismiss="offcanvas" aria-label="Close" data-chat-id="0">
             <div class="choose-chat col-1" style="margin-right: 30px;display: flex; align-items: center" data-chat-id="0">
-                <div class="choose-chat img-list-chat" style="background-image: url('../img/img_account/2.png')!important" data-chat-id="0"></div>
+                <div class="choose-chat img-list-chat" style="background-image: url('https://crud-odontologia.000webhostapp.com/img/img_account/2.png')!important" data-chat-id="0"></div>
             </div>
             <div class="choose-chat col" style="display: flex; align-items: center" data-chat-id="0">
                 <h4 class="choose-chat" data-chat-id="0">Paçoca</h4>

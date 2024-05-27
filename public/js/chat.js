@@ -18,7 +18,7 @@
 
         $.ajax({
             method: 'GET',
-            url: `http://192.168.1.107:8080/api/messages/${chat_id}`,
+            url: `http://pacoca.x10.mx/api/messages/${chat_id}`,
             success: function(response){
                 if($('#chat_id').val() >0){
                     chat_name = "";
@@ -68,7 +68,7 @@
         clearInterval(intervalId);
 
         document.getElementById("chat-name").innerHTML = "Paçoca"
-        document.getElementById("chat-img").style.backgroundImage = `url('../img/img_account/2.png')`
+        document.getElementById("chat-img").style.backgroundImage = `url('https://crud-odontologia.000webhostapp.com/img/img_account/2.png')`
 
         $("#form-escrever-chat").css('display', 'none')
 

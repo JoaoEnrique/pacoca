@@ -1,10 +1,10 @@
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -35,7 +35,7 @@
                 <h5>
                     <a class="name-search" href="/pacoca">{{$pacoca->name}}</a>
                     {{-- IMAGEM DE VERIFICADO --}}
-                    <img class="img-verificado-comentario" src="{{asset('img/verificado.png')}}" alt="" srcset="">
+                    <img class="img-verificado-comentario" src="https://crud-odontologia.000webhostapp.com/img/verificado.png alt="" srcset="">
                 </h5>
                 <p>{{"@" . $pacoca->user_name}}</p>
             </div>
@@ -64,7 +64,7 @@
                 <h5>
                     <a class="name-search"  href="/joao">{{$joao->name}}</a>
                     {{-- IMAGEM DE VERIFICADO --}}
-                    <img class="img-verificado-comentario" src="{{asset('img/verificado.png')}}" alt="" srcset="">
+                    <img class="img-verificado-comentario" src="https://crud-odontologia.000webhostapp.com/img/verificado.png alt="" srcset="">
                 </h5>
                 <p>{{"@" . $joao->user_name}}</p>
             </div>

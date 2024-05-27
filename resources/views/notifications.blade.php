@@ -1,10 +1,10 @@
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -34,15 +34,15 @@
 
                 {{--  --}}
                 <div class="row row-notification open-notification" data-id-notification="{{$notification->id}}" style="@if(!$notification->opened) background: #F5F5F5 @endif" onclick="window.location.href='{{$notification->link2}}'">
-                    
+
                     {{-- @if($notification->img_notification) --}}
                         @php
                             if($notification->img_notification) {$img_notification = $notification->img_notification;}
-                            else{ $img_notification = "../img/pacoca.png";  }
+                            else{ $img_notification = "https://crud-odontologia.000webhostapp.com/img/pacoca.png";  }
 
                         @endphp
-                        
-                        
+
+
                     <div class="col-1 img-list-chat img-account-search" style="background-image: url('{{$img_notification}}')!important">
                     </div>
                     <div class="col">
@@ -52,7 +52,7 @@
                     </div>
                 </div>
             @endforeach
-            
+
         @endif
     </div>
     {{-- MENU DE CELULAR --}}
