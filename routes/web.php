@@ -35,6 +35,8 @@ Route::get('/verify-email-wrong', function(){
     return view("errors.confirmation_email_wrong");
 });
 
+Route::get('/', [PostsController::class, 'feed'])->name('feed');//feed
+
 Route::get('/sobre', function(){
     return view('about');
 });//feed
@@ -229,7 +231,6 @@ Auth::routes(['verify' => true]);
 //USUARIO LOGADO
 Route::group(['middleware' => 'auth'], function () {
     Route::post('/logout', [UserController::class, 'logout'])->name('logout');//sair da conta
-    Route::get('/', [PostsController::class, 'feed'])->name('feed');//feed
     Route::post('/like', [PostsController::class, 'like']);//dar like
     Route::post('/comment', [PostsController::class, 'comment']);//dar like
     Route::post('/follow-user', [UserController::class, 'follow_user']);//dar like
