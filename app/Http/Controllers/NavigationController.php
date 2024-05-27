@@ -25,4 +25,15 @@ class NavigationController extends Controller
     public function search(){
         return view('user.search_mobile');
     }
+
+    public function verify_email(){
+        if(auth()->check() && !auth()->user()->hasVerifiedEmail())
+            return view('auth.verify');
+
+        return redirect('/');
+    }
+
+    function verified_email(){
+        return redirect('/')->with('success', 'Email verificado. Agora você pode fazer publicações, comentar, curtir posts e acessar o chat.');
+    }
 }

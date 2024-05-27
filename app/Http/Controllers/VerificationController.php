@@ -22,12 +22,11 @@ class VerificationController extends Controller
         $user = $request->user();
 
         if(!$user)
-         return redirect('/login');
+            return redirect('/login');
 
 
-        // if ($user->hasVerifiedEmail()) {
-        //     return redirect()->route('feed');
-        // }
+        if ($user->hasVerifiedEmail())
+            return redirect('/');
 
         // Gera e armazena um token de verificação personalizado
         $token = Str::random(60);
@@ -35,18 +34,18 @@ class VerificationController extends Controller
         $user->save();
 
         // Variáveis para serem passadas
-        $titulo = 'Verifique seu email';
-        $link = 'https://www.pacoca.x10.mx/';
-        $texto = 'Clique no link abaixo e verifique seu email';
+        // $titulo = 'Verifique seu email';
+        // $link = 'https://www.pacoca.x10.mx/';
+        // $texto = 'Clique no link abaixo e verifique seu email';
 
-        $link = "https://www.pacoca.x10.mx/verify-email/" . $user->id . "/" . $token;
+        // $link = "https://www.pacoca.x10.mx/verify-email/" . $user->id . "/" . $token;
 
-        $response = file_get_contents($url);
+        // $response = file_get_contents($url);
 
         // Envie o e-mail de verificação com o token incluído no URL
-        // $user->sendEmailVerificationNotification($token);
+        $user->sendEmailVerificationNotification($token);
 
-        return redirect('/verify-email-wrong')->with('resent', 'E-mail de verificação enviado com sucesso!');
+        return redirect('/')->with('resent', 'E-mail de verificação enviado com sucesso!');
     }
 
     public function enviarEmailTeste(){

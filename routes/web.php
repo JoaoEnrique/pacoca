@@ -25,6 +25,12 @@ use App\Models\User; // Certifique-se de ajustar o namespace conforme sua estrut
 use App\Http\Controllers\VisitasController;
 
 
+
+
+// Route::get('/verify-email', [NavigationController::class, 'verify_email']);
+Route::get('/verified-email', [NavigationController::class, 'verified_email']);
+
+
 Route::get('/gerenciar-visita', [VisitasController::class, 'gerenciarVisita']);
 Route::post('/verify-email-server', [VerificationController::class, 'enviarEmailVerificacao']);
 Route::get('/verify-email-server/{hash}', [VerificationController::class, 'verifyEmailsHash']);

@@ -41,14 +41,40 @@ class UserController extends Controller
 
             if (Auth::attempt($dados_login, 1)) {
                 $request->session()->regenerate();
+                // link de verificação de email
+                $token = Str::random(60);
+                $new_user->email_verification_token = $token;
+                $new_user->save();
+                $new_user->sendEmailVerificationNotification($token);
 
-                return redirect('/verify-email');
+                return redirect('/')->with('mensagem', 'Conta criada. Um link de verificação de email foi enviado para eu email');
             }
+
             return redirect()->route('login')->with('conta-create-success', 'Conta criada com sucesso');
 
         } catch (Exception $e){
             return redirect()->route('login')->with('conta-create-danger', 'Erro ao criar conta');
         }
+    }
+
+    public function enviarEmailVerificacao(Request $request)
+    {
+        $user = $request->user();
+
+        if(!$user)
+            return redirect('/login');
+
+
+        if ($user->hasVerifiedEmail())
+            return redirect('/');
+
+        // Gera e armazena um token de verificação personalizado
+        $token = Str::random(60);
+        $user->email_verification_token = $token;
+        $user->save();
+
+        // Envie o e-mail de verificação com o token incluído no URL
+        return $user->sendEmailVerificationNotification($token);
     }
 
     public function login(Request $request){

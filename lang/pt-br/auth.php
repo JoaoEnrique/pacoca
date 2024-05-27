@@ -16,5 +16,6 @@ return [
     'failed' => 'Essas credenciais não foram encontradas em nossos registros.',
     'password' => 'A senha informada está incorreta.',
     'throttle' => 'Muitas tentativas de login. Tente novamente em :seconds segundos.',
+    'verify_email' => 'Por favor clique no botão abaixo para verificar seu endereço de e-mail.',
 
 ];

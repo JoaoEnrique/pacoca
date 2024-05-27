@@ -34,6 +34,12 @@
                     </div>
                 @endif
 
+                @if(session('success'))
+                    <div class="mt-3 alert alert-success" role="alert">
+                        {{ session('success') }}
+                    </div>
+                @endif
+
                 {{-- Caso não tenha post --}}
                 @if($posts == "[]")
                     <h1>Siga pessoas para ver mais posts</h1>
@@ -90,7 +96,7 @@
 
                                 --}}
                                 {{-- ABRE MODAL DE POST - menu_mobile.blade.php --}}
-                                <input @if(!auth()->check()) onclick="window.location.href='/login'"  @endif  @if(!$email_verify && auth()->check()) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif @if($email_verify && auth()->check()) type="button" data-bs-toggle="modal" data-bs-target="#modal-post" @endif class="form-control form-text-comment me-2" type="text" name="" value="Adicionar publicação"/>
+                                <input @if(!auth()->check()) onclick="window.location.href='/login'"  @endif  @if(!$email_verify && auth()->check()) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif @if($email_verify && auth()->check()) data-bs-toggle="modal" data-bs-target="#modal-post" @endif type="button"   class="form-control form-text-comment me-2" type="text" name="" value="Adicionar publicação"/>
 
                             </form>
                         </div>
