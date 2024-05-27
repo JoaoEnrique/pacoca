@@ -17,18 +17,23 @@ services:
     ports:
       - "8080:80"
     depends_on:
-      - db
+    #   - db
+      - redis
 
-  db:
-    image: mysql:5.7
-    container_name: pacoca_mysql
-    environment:
-      MYSQL_DATABASE: laravel
-      MYSQL_USER: laraveluser
-      MYSQL_PASSWORD: laravelpass
-      MYSQL_ROOT_PASSWORD: rootpassword
-    volumes:
-      - db_data:/var/lib/mysql
+#   db:
+#     image: mysql:5.7
+#     container_name: pacoca_mysql
+#     environment:
+#       MYSQL_DATABASE: laravel
+#       MYSQL_USER: laraveluser
+#       MYSQL_PASSWORD: laravelpass
+#       MYSQL_ROOT_PASSWORD: rootpassword
+#     volumes:
+#       - db_data:/var/lib/mysql
 
-volumes:
-  db_data:
+  redis:
+    image: redis:alpine
+    container_name: pacoca_redis
+
+# volumes:
+#   db_data:

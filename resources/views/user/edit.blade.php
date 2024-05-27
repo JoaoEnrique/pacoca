@@ -41,14 +41,14 @@
                                 </label>
                                 {{-- <img src="{{$user->img_account}}" class="img-conta" srcset=""> --}}
                             @else
-                                <label for="img" class="label-img img-edit  @error('img') img-error @enderror" style="background-image: url('../img/img-account.png')">
+                                <label for="img" class="label-img img-edit  @error('img') img-error @enderror" style="background-image: url('{{asset('img/img-account.png')}}')">
                                     <img src="../img/photo.png"  width="50%">
                                 </label>
                                 {{-- <img src="../img/img-account.png" class="img-conta" srcset=""> --}}
                             @endif
                             <label for="img" style="cursor: pointer">
                                 <div style="padding: 5; position: absolute; bottom: 5px; right: 15px; background: #fff; border-radius: 15px" class="">
-                                    <img style="width: 25;" src="https://crud-odontologia.000webhostapp.com/img/edit" alt="" srcset="">
+                                    <img style="width: 25;" src="{{asset('img/edit.png')}}" alt="" srcset="">
                                 </div>
                             </label>
                         </div>
