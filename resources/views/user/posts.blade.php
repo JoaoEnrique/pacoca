@@ -174,9 +174,10 @@
                                         @php
                                             //verificar se img existe
                                             $path = $images_post[0]->path;
+                                            $path = str_replace('public/', '', $images_post[0]->path);
 
                                             if (file_exists($path)) {
-                                                $path_img = asset($images_post[0]->path);
+                                                $path_img = asset($path);
                                             } else {
                                                 $path_img = asset('img/image_not_found.png');
                                             }

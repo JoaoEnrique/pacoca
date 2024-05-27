@@ -73,7 +73,7 @@
                         <div class="col" style="position: relative">
                             <input id="password" type="password" class="input-login form-control @error('password') is-invalid @enderror" value="{{ old('password') }}" name="password" autocomplete="current-password">
                             {{-- IMAGEM DE VER SENHA --}}
-                            <img class="view-password" id="view-password" src="https://crud-odontologia.000webhostapp.com/img/eye.svg" onclick="showPassword()" srcset="">
+                            <img class="view-password" id="view-password" src="{{asset('img/eye.svg')}}" onclick="showPassword()" srcset="">
                         </div>
 
                         @error('password')
@@ -90,7 +90,7 @@
                         <div class="col" style="position: relative">
                             <input id="password-confirm" type="password" class="input-login form-control" name="password_confirmation" value="{{ old('password_confirmation') }}" autocomplete="new-password">
                             {{-- IMAGEM DE VER SENHA --}}
-                            <img class="view-password" id="view-password-confirm" src="https://crud-odontologia.000webhostapp.com/img/eye.svg" onclick="showPasswordConfirm()" srcset="">
+                            <img class="view-password" id="view-password-confirm" src="{{asset('img/eye.svg')}}" onclick="showPasswordConfirm()" srcset="">
                         </div>
                     </div>
 

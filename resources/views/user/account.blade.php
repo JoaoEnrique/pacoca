@@ -66,7 +66,7 @@
                 <h2>{{ $user->name }} {{-- Nome --}}
                     {{-- IMAGEM DE VERIFICADO --}}
                     @if ($user->user_name == 'joao' || $user->user_name == 'pacoca')
-                        <img class="img-verificado-conta" src="https://crud-odontologia.000webhostapp.com/img/verificado.png" alt="" srcset="">
+                        <img class="img-verificado-conta" src="{{asset('img/verificado.png')}}" alt="" srcset="">
                     @endif
                 </h2>
 
@@ -265,24 +265,29 @@
                         @else
                             <div class="col-lg-4 col-6" style="margin-top: 10px">
                                 @php
-                                    //verificar se img existe
-                                    $path = $images_post[0]->path;
-                                    $path = str_replace("public", "", $path);
+                                    // NORMAL
+                                    $path = str_replace('public/', '', $images_post[0]->path);
 
-                                    // if (file_exists($path)) {
-                                    //     $path_img = asset($images_post[0]->path);
+                                    if (file_exists($path)) {
+                                        $path_img = asset($path);
+                                    } else {
+                                        $path_img = asset('img/image_not_found.png');
+                                    }
+
+                                    // HOSPEDAGEM
+                                    //verificar se img existe
+                                    // $path = $images_post[0]->path;
+                                    // $path = str_replace("public", "", $path);
+
+                                    // $path_img = "https://crud-odontologia.000webhostapp.com$path";
+                                    // $headers = get_headers($path_img, 1);
+
+                                    // if (strpos($headers[0], '200') !== false) {
+                                    //     $path_img = "https://crud-odontologia.000webhostapp.com/$path";
                                     // } else {
-                                    //     $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
+                                    //     $path_img = asset('img/image_not_found.png');
                                     // }
 
-                                    $path_img = "https://crud-odontologia.000webhostapp.com$path";
-                                    $headers = get_headers($path_img, 1);
-
-                                    if (strpos($headers[0], '200') !== false) {
-                                        $path_img = "https://crud-odontologia.000webhostapp.com/$path";
-                                    } else {
-                                        $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
-                                    }
                                 @endphp
 
                                 <div type="button" data-bs-toggle="modal" data-bs-target="#modal-img-{{$images_post[0]->id}}" class="card card-post-account" style="background-image: url('{{ $path_img }}'); margin: 0px 0;"></div>
@@ -302,11 +307,12 @@
                                                 @php
                                                     //verificar se img existe
                                                     $path = $images_post[0]->path;
+                                                    $path = str_replace('public/', '', $images_post[0]->path);
 
                                                     if (file_exists($path)) {
-                                                        $path_img = asset($images_post[0]->path);
+                                                        $path_img = asset($path);
                                                     } else {
-                                                        $path_img = ('https://crud-odontologia.000webhostapp.com/img/image_not_found.png');
+                                                        $path_img = asset('img/image_not_found.png');
                                                     }
                                                 @endphp
                                                 <img style="min-width: auto; max-width: fit-content;"  src="{{$path_img}}" id="img-post" class="img-post" srcset="">

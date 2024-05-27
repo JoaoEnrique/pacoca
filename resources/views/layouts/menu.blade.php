@@ -65,7 +65,6 @@
                             @else
                                 {{-- Caso não esteja na home (img normal) --}}
                                 <img style="opacity: 0.5" src="{{asset('img/chat.png')}}" height="35" srcset="">
-                                {{-- <img style="opacity: 0.5;background:transparent!important" src="https://crud-odontologia.000webhostapp.com/img/icons8-chat.gif')}}" height="35" srcset=""> --}}
                             @endif
                         </a>
                     </li>

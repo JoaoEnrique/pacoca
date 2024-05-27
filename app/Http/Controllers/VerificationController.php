@@ -21,6 +21,10 @@ class VerificationController extends Controller
     {
         $user = $request->user();
 
+        if(!$user)
+         return redirect('/login');
+
+
         // if ($user->hasVerifiedEmail()) {
         //     return redirect()->route('feed');
         // }

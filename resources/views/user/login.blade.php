@@ -64,7 +64,7 @@
                     <div class="col" style="position: relative">
                         <input placeholder="Senha" id="password" type="password" class="input-login form-control @error('password') is-invalid @enderror" value="{{ old('password') }}" name="password" autocomplete="current-password">
                         {{-- IMAGEM DE VER SENHA --}}
-                        <img class="view-password" id="view-password" src="https://crud-odontologia.000webhostapp.com/img/eye." onclick="showPassword()" srcset="">
+                        <img class="view-password" id="view-password" src="{{asset('img/eye.svg')}}" onclick="showPassword()" srcset="">
                     </div>
                     @error('password')
                         <span class="invalid-feedback" role="alert" style="display: block">

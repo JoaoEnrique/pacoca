@@ -57,7 +57,7 @@
                             <a class="name-search" href="/{{$user->user_name}}">{{$user->name}}</a>
                             {{-- IMAGEM DE VERIFICADO --}}
                             @if ($user->user_name == 'joao' || $user->user_name == 'pacoca')
-                                <img class="img-verificado-comentario" src="https://crud-odontologia.000webhostapp.com/img/verificado.png alt="" srcset="">
+                                <img class="img-verificado-comentario" src="{{asset('img/verificado.png')}}" alt=" srcset="">
                             @endif
                         </h5>
                         <p>{{"@". $user->user_name}}</p>

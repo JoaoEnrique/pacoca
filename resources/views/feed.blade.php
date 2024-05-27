@@ -1,10 +1,10 @@
-{{-- 
+{{--
     "PRA QUE SERVE
     TANTO CÓDIGO
     SE A VIDA
     NÃO É PROGRAMADA
     E AS MELHORES COISAS
-    NÃO TEM LÓGICA". 
+    NÃO TEM LÓGICA".
     Algúem (algum ano)
 --}}
 
@@ -19,7 +19,7 @@
 
     <div class="container container-feed" style="margin-top: 76px; min-width: 100%!important">
         <div class="row" style="justify-content: center;">
-            
+
             <div class="col-md-4">
                 @if (session('resent'))
                     <div class="mt-3 alert alert-success" role="alert">
@@ -55,7 +55,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                         </div>
                     @enderror
-                    
+
                     <div class="row" style="width: 100%; margin: 0; padding: 0; flex-wrap: nowrap; ">
                         @php
                         if(isset(auth()->user()->img_account))
@@ -64,7 +64,7 @@
                             $img_account = "../img/img-account.png";
                         @endphp
                         <div class="col-2 img-conta-pesquisa img-conta-post" style="background-image: url('{{$img_account}}')">
-                            
+
                         </div>
 
                         {{-- ADICIONAR PUBLICAÇÃO --}}
@@ -84,14 +84,14 @@
                                     }
                                 @endphp
 
-                                {{-- 
+                                {{--
                                     email não verificado retorna modal para verificar email:
                                     @if(!$email_verify) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif
-                                    
+
                                 --}}
                                 {{-- ABRE MODAL DE POST - menu_mobile.blade.php --}}
-                                <input @if(!$email_verify) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif type="button" data-bs-toggle="modal" data-bs-target="#modal-post" class="form-control form-text-comment me-2" type="text" name="" value="Adicionar publicação"/>
-        
+                                <input @if(!auth()->check()) onclick="window.location.href='/login'"  @endif  @if(!$email_verify && auth()->check()) data-bs-toggle="modal" data-bs-target="#modal-verificar-email" @endif @if($email_verify && auth()->check()) type="button" data-bs-toggle="modal" data-bs-target="#modal-post" @endif class="form-control form-text-comment me-2" type="text" name="" value="Adicionar publicação"/>
+
                             </form>
                         </div>
                     </div>
