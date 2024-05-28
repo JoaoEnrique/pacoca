@@ -9,13 +9,13 @@
 --}}
 
 @extends('layouts.main')
-@section('title', 'Paçoca - Página não encontrada')
+@section('title', 'Paçoca - Erro interno no servidor')
 
 @include('layouts/menu')
 @section('content')
     <div class="container container-404">
         <h1 style="text-align: center;">500: Erro Interno no Servidor</h1>
-        <img src="{{asset('img/server')}}"  style="height: 400px!important" class="img-page-not-found" srcset="">
+        <img src="{{asset('img/server.png')}}"  style="height: 400px!important" class="img-page-not-found" srcset="">
     </div>
 
     {{-- MENU DE CELULAR --}}
