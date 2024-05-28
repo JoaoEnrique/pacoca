@@ -24,7 +24,7 @@
           document.body.classList.add('loaded');
         });
       </script>
-    <link rel="shortcut icon" href="{{asset('img/pacoca.png?v=2')}}" type="image/x-icon">
+    <link rel="shortcut icon" href="{{asset('img/pacoca.png?v=4')}}" type="image/x-icon">
     <link rel="stylesheet" href="{{asset('css/style.css?v=4')}}">
     {{-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"> --}}
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
