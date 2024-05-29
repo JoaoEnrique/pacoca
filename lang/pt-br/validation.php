@@ -183,7 +183,7 @@ return [
         'email' => 'email',
         'password' => 'senha',
         'name' => 'nome',
-        'user name' => 'nome de usuário',
+        'user_name' => 'nome de usuário',
         'phone' => 'telefone',
         'birth date' => 'data de aniversario',
         'old_password' => 'senha atual',
