@@ -58,5 +58,8 @@
         }
     },
     "minimum-stability": "stable",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "require-dev": {
+        "symfony/symfony": "^6.4"
+    }
 }
