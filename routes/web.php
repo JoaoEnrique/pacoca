@@ -232,6 +232,9 @@ Route::get('/send-multiple-emails', function () {
 });
 
 
+
+Route::get("email-facebook", [EmailController::class, 'emailFacebook']);
+
 Auth::routes(['verify' => true]);
 
 //USUARIO LOGADO

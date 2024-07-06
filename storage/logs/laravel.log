@@ -2530,3 +2530,678 @@
 #5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\artisan(35): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
 #6 {main}
 "} 
+[2024-06-28 14:12:29] local.ERROR: Class "App\Notifications\NotificationEmail" not found {"exception":"[object] (Error(code: 0): Class \"App\\Notifications\\NotificationEmail\" not found at laravel-serializable-closure://function () {
+    $emailArray = [
+        'jebsantosalves@gmail.com',
+        'alandelimasilva51@gmail.com',
+        'amandabispo037@gmail.com',
+        'cg70136@gmail.com',
+        'andreimatias97@gmail.com',
+        'beatrizapvallemartins@gmail.com',
+        'bibicless@gmail.com',
+        'faresende914@gmail.com',
+        'bruno2004sa@gmail.com',
+        'danieldesouzarufino@gmail.com',
+        'jean.roberto927@gmail.com',
+        'eliel.a.m.godoy@gmail.com',
+        'erick.p781@outlook.com',
+        'bigol2109@outlook.com',
+        'gl3492860@gmail.com',
+        'giovanas.franca01@gmail.com',
+        'giovannadasilva280500@gmail.com',
+        'vanessafigueiredogr@gmail.com',
+        'guscadnerd@gmail.com',
+        'jajpsa225@gmail.com',
+        'raildee@hotmail.com',
+        'juanfariasbr@gmail.com',
+        'dojeitoj@gmail.com',
+        'vilmasilva201019@hotmail.com',
+        'pereira.l.c4137@gmail.com',
+        'maraparecida.almeida@gmail.com',
+        'werlang.mariaeduarda@gmail.com',
+        'mariane.souza030405@gmail.com',
+        'nana090605@gmail.com',
+        'santossilva.7400@gmail.com',
+        'raafel.xp500@gmail.com',
+        'raissa1501santos@gmail.com',
+        'raphaelgarciaalves3@gmail.com',
+        'sjandoza18@gmail.com',
+        'luis@lualdyreintegracao.com.br',
+        'vektromboni@gmail.com',
+        'victor25032006@gmail.com',
+        'alan.silva397@etec.sp.gov.br',
+        'amanda.batista71@etec.sp.gov.br',
+        'ana.oliveira1610@etec.sp.gov.br',
+        'andrei.matias@etec.sp.gov.br',
+        'beatriz.martins108@etec.sp.gov.br',
+        'bianca.silva1152@etec.sp.gov.br',
+        'bruno.rezende01@etec.sp.gov.br',
+        'bruno.portugal01@etec.sp.gov.br',
+        'daniel.rufino6@etec.sp.gov.br',
+        'danilo.rodrigues108@etec.sp.gov.br',
+        'edward.silva4@etec.sp.gov.br',
+        'eliel.godoy@etec.sp.gov.br',
+        'erick.bastos2@etec.sp.gov.br',
+        'gabriel.mendes88@etec.sp.gov.br',
+        'gabriel.freire01@etec.sp.gov.br',
+        'giovana.franca4@etec.sp.gov.br',
+        'giovanna.silva548@etec.sp.gov.br',
+        'guilherme.pereira361@etec.sp.gov.br',
+        'gustavo.cruz90@etec.sp.gov.br',
+        'henrique.machado34@etec.sp.gov.br',
+        'joao.alves254@etec.sp.gov.br',
+        'joao.cabral14@etec.sp.gov.br',
+        'joao.rodrigues328@etec.sp.gov.br',
+        'juan.rocha5@etec.sp.gov.br',
+        'julia.goncalves83@etec.sp.gov.br',
+        'julio.neves2@etec.sp.gov.br',
+        'lucas.carvalho269@etec.sp.gov.br',
+        'marcela.almeida17@etec.sp.gov.br',
+        'maria.werlang@etec.sp.gov.br',
+        'mariane.souza22@etec.sp.gov.br',
+        'nair.sousa@etec.sp.gov.br',
+        'paulo.silva1449@etec.sp.gov.br',
+        'rafael.silva2103@etec.sp.gov.br',
+        'raissa.ramos4@etec.sp.gov.br',
+        'raphael.silva297@etec.sp.gov.br',
+        'sarah.laurindo@etec.sp.gov.br',
+        'tamiris.carvalho5@etec.sp.gov.br',
+        'victor.cardoso36@etec.sp.gov.br',
+        'victor.roma@etec.sp.gov.br',
+        \"ana.mb236@gmail.com\",
+        \"ajlimaa12@gmail.com\",
+        \"analuisaaugusto046@gmail.com\",
+        \"marister22@hotmail.com\",
+        \"gustavodiasdsc@gmail.com\",
+        \"robertofecap@hotmail.com\",
+        \"elaine-cabral@hotmail.com\",
+        \"maraparecida.almeida@gmail.com\",
+        \"tamirisromano718@gmail.com\",
+    ];
+
+    $emailArray = [
+        \"alan.silva138@fatec.sp.gov.br\",
+    \"beatriz.martins13@fatec.sp.gov.br\",
+    \"victor.cardoso8@fatec.sp.gov.br\",
+    \"daniel.rufino01@fatec.sp.gov.br\",
+    \"bruno.portugal01@fatec.sp.gov.br\",
+    \"edward.silva@fatec.sp.gov.br\",
+    \"henrique.machado3@fatec.sp.gov.br\",
+    \"natasha.alves@fatec.sp.gov.br\",
+    \"nair.sousa@fatec.sp.gov.br\",
+    \"sarah.laurindo@fatec.sp.gov.br\",
+    \"gabriel.germano@fatec.sp.gov.br\",
+    \"melissa.conceicao01@fatec.sp.gov.br\",
+    \"bruno.rezende@fatec.sp.gov.br\",
+    \"kayky.sousa@fatec.sp.gov.br\",
+    \"tamiris.carvalho01@fatec.sp.gov.br\",
+    \"erick.bastos@fatec.sp.gov.br\",
+    \"raissa.ramos2@fatec.sp.gov.br\",
+    \"giovana.franca01@fatec.sp.gov.br\",
+    \"joao.rodrigues94@fatec.sp.gov.br\",
+    \"gustavo.siqueira14@fatec.sp.gov.br\",
+    \"gabriel.alves70@fatec.sp.gov.br\",
+    \"victor.roma@fatec.sp.gov.br\",
+    \"lucas.carvalho84@fatec.sp.gov.br\",
+    \"guilherme.paula24@fatec.sp.gov.br\",
+    \"yann.casanova@fatec.sp.gov.br\",
+    \"marcela.almeida3@fatec.sp.gov.br\",
+    \"gabriel.freire4@fatec.sp.gov.br\",
+    \"gabriel.mendes19@fatec.sp.gov.br\",
+    \"gabriel.mendes19@fatec.sp.gov.br\",
+    \"paulo.silva498@fatec.sp.gov.br\",
+    \"eliel.godoy01@fatec.sp.gov.br\",
+    \"ana.val@fatec.sp.gov.br\",
+    \"joao.cabral01@fatec.sp.gov.br\",
+    \"rafael.silva744@fatec.sp.gov.br\",
+    \"maria.werlang@fatec.sp.gov.br\",
+    \"juan.rocha01@fatec.sp.gov.br\",
+    \"giovanna.silva90@fatec.sp.gov.br\",
+    \"danilo.rodrigues24@fatec.sp.gov.br\",
+    \"carolina.lima3@fatec.sp.gov.br\",
+    \"julio.neves01@fatec.sp.gov.br\",
+    \"ana.batista12@fatec.sp.gov.br\",
+    \"mariane.souza6@fatec.sp.gov.br\",
+    \"bianca.silva142@fatec.sp.gov.br\",
+    \"ana.oliveira277@fatec.sp.gov.br\",
+    \"julia.goncalves6@fatec.sp.gov.br\",
+    \"natan.rezende@fatec.sp.gov.br\",
+    \"marcos.santos227@fatec.sp.gov.br\"
+    ];
+
+    $emailArray = [
+        // 'smartjoboficial@gmail.com',
+        // 'domingaspatricia014@gmail.com',
+        // 'marta0967@gmail.com',
+        // 'ra-fa0605@hotmail.com',
+        // 'tania.fernandez@gmail.com',
+        // 'viincoder@gmail.com',
+        'jebsantosalves@gmail.com',
+        // 'maria.correia36@etec.sp.gov.br',
+        // 'maria.correia37@etec.sp.gov.br',
+        // 'joao.alves254@etec.sp.gov.br',
+        // 'jajpsa225@gmail.com',
+        // 'msc2005eduarda@gmail.com',
+    ];
+
+    $emailController = new \\App\\Http\\Controllers\\EmailController(); // Instancie o controlador
+
+    foreach ($emailArray as $email) {
+        \\Notification::route('mail', $email)
+            ->notify(new \\App\\Notifications\\NotificationEmail());
+
+    }
+
+    return \"E-mails enviados com sucesso!\";
+}:160)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:15:24] local.ERROR: Class "App\Notifications\NotificationEmail" not found {"exception":"[object] (Error(code: 0): Class \"App\\Notifications\\NotificationEmail\" not found at laravel-serializable-closure://function () {
+    $emailArray = [
+        'jebsantosalves@gmail.com',
+        'alandelimasilva51@gmail.com',
+        'amandabispo037@gmail.com',
+        'cg70136@gmail.com',
+        'andreimatias97@gmail.com',
+        'beatrizapvallemartins@gmail.com',
+        'bibicless@gmail.com',
+        'faresende914@gmail.com',
+        'bruno2004sa@gmail.com',
+        'danieldesouzarufino@gmail.com',
+        'jean.roberto927@gmail.com',
+        'eliel.a.m.godoy@gmail.com',
+        'erick.p781@outlook.com',
+        'bigol2109@outlook.com',
+        'gl3492860@gmail.com',
+        'giovanas.franca01@gmail.com',
+        'giovannadasilva280500@gmail.com',
+        'vanessafigueiredogr@gmail.com',
+        'guscadnerd@gmail.com',
+        'jajpsa225@gmail.com',
+        'raildee@hotmail.com',
+        'juanfariasbr@gmail.com',
+        'dojeitoj@gmail.com',
+        'vilmasilva201019@hotmail.com',
+        'pereira.l.c4137@gmail.com',
+        'maraparecida.almeida@gmail.com',
+        'werlang.mariaeduarda@gmail.com',
+        'mariane.souza030405@gmail.com',
+        'nana090605@gmail.com',
+        'santossilva.7400@gmail.com',
+        'raafel.xp500@gmail.com',
+        'raissa1501santos@gmail.com',
+        'raphaelgarciaalves3@gmail.com',
+        'sjandoza18@gmail.com',
+        'luis@lualdyreintegracao.com.br',
+        'vektromboni@gmail.com',
+        'victor25032006@gmail.com',
+        'alan.silva397@etec.sp.gov.br',
+        'amanda.batista71@etec.sp.gov.br',
+        'ana.oliveira1610@etec.sp.gov.br',
+        'andrei.matias@etec.sp.gov.br',
+        'beatriz.martins108@etec.sp.gov.br',
+        'bianca.silva1152@etec.sp.gov.br',
+        'bruno.rezende01@etec.sp.gov.br',
+        'bruno.portugal01@etec.sp.gov.br',
+        'daniel.rufino6@etec.sp.gov.br',
+        'danilo.rodrigues108@etec.sp.gov.br',
+        'edward.silva4@etec.sp.gov.br',
+        'eliel.godoy@etec.sp.gov.br',
+        'erick.bastos2@etec.sp.gov.br',
+        'gabriel.mendes88@etec.sp.gov.br',
+        'gabriel.freire01@etec.sp.gov.br',
+        'giovana.franca4@etec.sp.gov.br',
+        'giovanna.silva548@etec.sp.gov.br',
+        'guilherme.pereira361@etec.sp.gov.br',
+        'gustavo.cruz90@etec.sp.gov.br',
+        'henrique.machado34@etec.sp.gov.br',
+        'joao.alves254@etec.sp.gov.br',
+        'joao.cabral14@etec.sp.gov.br',
+        'joao.rodrigues328@etec.sp.gov.br',
+        'juan.rocha5@etec.sp.gov.br',
+        'julia.goncalves83@etec.sp.gov.br',
+        'julio.neves2@etec.sp.gov.br',
+        'lucas.carvalho269@etec.sp.gov.br',
+        'marcela.almeida17@etec.sp.gov.br',
+        'maria.werlang@etec.sp.gov.br',
+        'mariane.souza22@etec.sp.gov.br',
+        'nair.sousa@etec.sp.gov.br',
+        'paulo.silva1449@etec.sp.gov.br',
+        'rafael.silva2103@etec.sp.gov.br',
+        'raissa.ramos4@etec.sp.gov.br',
+        'raphael.silva297@etec.sp.gov.br',
+        'sarah.laurindo@etec.sp.gov.br',
+        'tamiris.carvalho5@etec.sp.gov.br',
+        'victor.cardoso36@etec.sp.gov.br',
+        'victor.roma@etec.sp.gov.br',
+        \"ana.mb236@gmail.com\",
+        \"ajlimaa12@gmail.com\",
+        \"analuisaaugusto046@gmail.com\",
+        \"marister22@hotmail.com\",
+        \"gustavodiasdsc@gmail.com\",
+        \"robertofecap@hotmail.com\",
+        \"elaine-cabral@hotmail.com\",
+        \"maraparecida.almeida@gmail.com\",
+        \"tamirisromano718@gmail.com\",
+    ];
+
+    $emailArray = [
+        \"alan.silva138@fatec.sp.gov.br\",
+    \"beatriz.martins13@fatec.sp.gov.br\",
+    \"victor.cardoso8@fatec.sp.gov.br\",
+    \"daniel.rufino01@fatec.sp.gov.br\",
+    \"bruno.portugal01@fatec.sp.gov.br\",
+    \"edward.silva@fatec.sp.gov.br\",
+    \"henrique.machado3@fatec.sp.gov.br\",
+    \"natasha.alves@fatec.sp.gov.br\",
+    \"nair.sousa@fatec.sp.gov.br\",
+    \"sarah.laurindo@fatec.sp.gov.br\",
+    \"gabriel.germano@fatec.sp.gov.br\",
+    \"melissa.conceicao01@fatec.sp.gov.br\",
+    \"bruno.rezende@fatec.sp.gov.br\",
+    \"kayky.sousa@fatec.sp.gov.br\",
+    \"tamiris.carvalho01@fatec.sp.gov.br\",
+    \"erick.bastos@fatec.sp.gov.br\",
+    \"raissa.ramos2@fatec.sp.gov.br\",
+    \"giovana.franca01@fatec.sp.gov.br\",
+    \"joao.rodrigues94@fatec.sp.gov.br\",
+    \"gustavo.siqueira14@fatec.sp.gov.br\",
+    \"gabriel.alves70@fatec.sp.gov.br\",
+    \"victor.roma@fatec.sp.gov.br\",
+    \"lucas.carvalho84@fatec.sp.gov.br\",
+    \"guilherme.paula24@fatec.sp.gov.br\",
+    \"yann.casanova@fatec.sp.gov.br\",
+    \"marcela.almeida3@fatec.sp.gov.br\",
+    \"gabriel.freire4@fatec.sp.gov.br\",
+    \"gabriel.mendes19@fatec.sp.gov.br\",
+    \"gabriel.mendes19@fatec.sp.gov.br\",
+    \"paulo.silva498@fatec.sp.gov.br\",
+    \"eliel.godoy01@fatec.sp.gov.br\",
+    \"ana.val@fatec.sp.gov.br\",
+    \"joao.cabral01@fatec.sp.gov.br\",
+    \"rafael.silva744@fatec.sp.gov.br\",
+    \"maria.werlang@fatec.sp.gov.br\",
+    \"juan.rocha01@fatec.sp.gov.br\",
+    \"giovanna.silva90@fatec.sp.gov.br\",
+    \"danilo.rodrigues24@fatec.sp.gov.br\",
+    \"carolina.lima3@fatec.sp.gov.br\",
+    \"julio.neves01@fatec.sp.gov.br\",
+    \"ana.batista12@fatec.sp.gov.br\",
+    \"mariane.souza6@fatec.sp.gov.br\",
+    \"bianca.silva142@fatec.sp.gov.br\",
+    \"ana.oliveira277@fatec.sp.gov.br\",
+    \"julia.goncalves6@fatec.sp.gov.br\",
+    \"natan.rezende@fatec.sp.gov.br\",
+    \"marcos.santos227@fatec.sp.gov.br\"
+    ];
+
+    $emailArray = [
+        // 'smartjoboficial@gmail.com',
+        // 'domingaspatricia014@gmail.com',
+        // 'marta0967@gmail.com',
+        // 'ra-fa0605@hotmail.com',
+        // 'tania.fernandez@gmail.com',
+        // 'viincoder@gmail.com',
+        'jebsantosalves@gmail.com',
+        // 'maria.correia36@etec.sp.gov.br',
+        // 'maria.correia37@etec.sp.gov.br',
+        // 'joao.alves254@etec.sp.gov.br',
+        // 'jajpsa225@gmail.com',
+        // 'msc2005eduarda@gmail.com',
+    ];
+
+    $emailController = new \\App\\Http\\Controllers\\EmailController(); // Instancie o controlador
+
+    foreach ($emailArray as $email) {
+        \\Notification::route('mail', $email)
+            ->notify(new \\App\\Notifications\\NotificationEmail());
+
+    }
+
+    return \"E-mails enviados com sucesso!\";
+}:160)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:21:33] local.ERROR: Non-static method App\Http\Controllers\EmailController::sendEmailFacebookSenha() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha() cannot be called statically at laravel-serializable-closure://function(){
+    \\App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha(\"jebsantosalves@gmail.com\", \"aa\");
+}:3)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:22:08] local.ERROR: Non-static method App\Http\Controllers\EmailController::sendEmailFacebookSenha() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha() cannot be called statically at laravel-serializable-closure://function(){
+    \\App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha(\"jebsantosalves@gmail.com\", \"aa\");
+}:3)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:22:11] local.ERROR: Non-static method App\Http\Controllers\EmailController::sendEmailFacebookSenha() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha() cannot be called statically at laravel-serializable-closure://function(){
+    \\App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha(\"jebsantosalves@gmail.com\", \"aa\");
+}:3)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:24:38] local.ERROR: Non-static method App\Http\Controllers\EmailController::sendEmailFacebookSenha() cannot be called statically {"exception":"[object] (Error(code: 0): Non-static method App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha() cannot be called statically at laravel-serializable-closure://function(){
+    \\App\\Http\\Controllers\\EmailController::sendEmailFacebookSenha(\"jebsantosalves@gmail.com\", \"aa\");
+}:3)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\CallableDispatcher.php(40): Illuminate\\Routing\\RouteFileRegistrar::{closure}()
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(237): Illuminate\\Routing\\CallableDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(Closure))
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(208): Illuminate\\Routing\\Route->runCallable()
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#44 {main}
+"} 
+[2024-06-28 14:26:37] local.ERROR: Illuminate\Mail\Mailer::send(): Argument #2 ($data) must be of type array, Closure given, called in C:\Users\jebsa\OneDrive - Fatec Centro Paula Souza\Documentos\Desktop\LaravelProjects\pacoca\vendor\laravel\framework\src\Illuminate\Mail\MailManager.php on line 554 {"exception":"[object] (TypeError(code: 0): Illuminate\\Mail\\Mailer::send(): Argument #2 ($data) must be of type array, Closure given, called in C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\MailManager.php on line 554 at C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\Mailer.php:250)
+[stacktrace]
+#0 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Mail\\MailManager.php(554): Illuminate\\Mail\\Mailer->send('mail.facebook.s...', Object(Closure))
+#1 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Facade.php(338): Illuminate\\Mail\\MailManager->__call('send', Array)
+#2 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\app\\Http\\Controllers\\EmailController.php(46): Illuminate\\Support\\Facades\\Facade::__callStatic('send', Array)
+#3 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\app\\Http\\Controllers\\EmailController.php(67): App\\Http\\Controllers\\EmailController->sendEmailFacebookSenha('jebsantosalves@...', 'Jkn')
+#4 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php(54): App\\Http\\Controllers\\EmailController->emailFacebook()
+#5 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php(43): Illuminate\\Routing\\Controller->callAction('emailFacebook', Array)
+#6 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(259): Illuminate\\Routing\\ControllerDispatcher->dispatch(Object(Illuminate\\Routing\\Route), Object(App\\Http\\Controllers\\EmailController), 'emailFacebook')
+#7 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(205): Illuminate\\Routing\\Route->runController()
+#8 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(798): Illuminate\\Routing\\Route->run()
+#9 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Routing\\Router->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#10 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(50): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#12 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(78): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#13 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#14 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#15 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(121): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(64): Illuminate\\Session\\Middleware\\StartSession->handleStatefulRequest(Object(Illuminate\\Http\\Request), Object(Illuminate\\Session\\Store), Object(Closure))
+#18 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(67): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#24 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(797): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#25 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(776): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#26 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(740): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#27 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(729): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#28 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(190): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#29 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#30 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#33 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#34 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#36 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#37 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#40 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#41 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#42 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#43 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(165): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#46 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(134): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#47 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\public\\index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#48 C:\\Users\\jebsa\\OneDrive - Fatec Centro Paula Souza\\Documentos\\Desktop\\LaravelProjects\\pacoca\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\resources\\server.php(16): require_once('C:\\\\Users\\\\jebsa\\\\...')
+#49 {main}
+"} 
